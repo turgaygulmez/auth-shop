@@ -1,0 +1,50 @@
+.all-products {
+  width: 100%;
+}
+
+.product-card-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__empty {
+    margin: 1rem auto;
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.product-card {
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.5s;
+  margin: 1em;
+  padding: 1rem;
+
+  @media (min-width: $breakpoint-tablet) {
+    width: 18rem;
+  }
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  &__actions {
+    &__amount {
+      margin: 1rem 0;
+    }
+
+    &__button {
+      width: 100%;
+    }
+  }
+}

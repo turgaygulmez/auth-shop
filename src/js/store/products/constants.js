@@ -1,0 +1,6 @@
+export const REDUCER_NAME = "products";
+export const SET_PRODUCTS = `${REDUCER_NAME}/SET_PRODUCTS`;
+export const SET_FILTERS = `${REDUCER_NAME}/SET_FILTERS`;
+export const RESET_FILTERS = `${REDUCER_NAME}/RESET_FILTERS`;
+export const SET_ERROR = `${REDUCER_NAME}/SET_ERROR`;
+export const SET_LOADING = `${REDUCER_NAME}/SET_LOADING`;

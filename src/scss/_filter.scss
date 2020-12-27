@@ -1,0 +1,38 @@
+.filter-list {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+
+  &__search {
+    margin: 0 0 1rem 0;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin: 0 1rem 0 0;
+    }
+  }
+
+  .clear-button {
+    min-width: 8rem;
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+  }
+
+  .dropdown {
+    margin: 0 0 1rem 0;
+    min-width: 8rem;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin: 0 1rem 0 0;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .dropdown-menu {
+      width: 100%;
+    }
+  }
+}

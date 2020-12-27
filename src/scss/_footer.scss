@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e8e8e8;
+  padding: 1rem;
+  flex-direction: column;
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+  }
+
+  &__social-icon {
+    display: flex;
+    margin: 0 0 1rem 0;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin: 0;
+    }
+
+    &__img {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    &__link {
+      margin: 0 1rem 0 0;
+    }
+  }
+}

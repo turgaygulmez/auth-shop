@@ -1,0 +1,10 @@
+.basket {
+  padding: 1rem;
+
+  &--empty {
+    text-align: center;
+    border: 1px solid #c7c6c6;
+    margin: 1rem;
+    padding: 1rem;
+  }
+}

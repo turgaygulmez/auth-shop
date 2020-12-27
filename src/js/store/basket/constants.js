@@ -1,0 +1,6 @@
+export const REDUCER_NAME = "basket";
+export const SET_BASKET = `${REDUCER_NAME}/SET_BASKET`;
+export const APPEND_BASKET = `${REDUCER_NAME}/APPEND_BASKET`;
+export const REMOVE_BASKET_ITEM = `${REDUCER_NAME}/REMOVE_BASKET_ITEM`;
+export const SET_ERROR = `${REDUCER_NAME}/SET_ERROR`;
+export const SET_LOADING = `${REDUCER_NAME}/SET_LOADING`;
